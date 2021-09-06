@@ -1,0 +1,90 @@
+body {
+    /*background-color: rgba(0, 79, 179);*/
+    
+}
+
+.containerP {
+  width: 70%;
+  height: auto;
+  /*background-color: rgba(0, 79, 179);*/
+  margin: auto;
+  border: 5;
+  border-color: black;
+ 
+}
+#table {
+  border: 2;
+  border-color: black;
+  /*width: 1010px;*/
+  /*height: auto;*/
+  margin-top: 10px;
+  margin-left: 150px;
+  margin: center;
+}
+table {
+  border: 2;
+  border-color: black;
+  background-color: aquamarine;
+  /*width: 1010px;*/
+  /*height: auto;*/
+  /*margin-top: 50px;*/
+  /*margin-left: 150px;*/
+  margin: center;
+}
+th td{
+    font-size: 12px;
+}
+
+
+
+caption {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  color: blue;
+}
+h1 {
+  color: blue;
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+
+button{
+margin-left: 950px;
+/*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);*/
+width: 180px;
+height: 45px;
+border-radius: 5px 5px 5px 5px;
+background-color: rgb(0,79,179);
+text-align: center;
+color:white;
+border: 0;
+
+}
+
+
+button:hover{
+  background-color: rgba(255,86,10,1);
+  color: rgb(0,79,179);
+  
+  
+  }
+
+#logo-entel {
+  width: 180px;
+  height: 80px;
+  background-color: rgba(0, 79, 179);
+  margin-top: -20px;
+  
+}
+#entel-hogar {
+  width: 400px;
+  height: 335px;
+  border: 2;
+  background-color:aquamarine;
+  margin-top: 20px;
+  margin-left: -550px;
+  
+}
+
+
