@@ -1,90 +1,238 @@
-body {
-    /*background-color: rgba(0, 79, 179);*/
-    
+body,
+html {
+  /* background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%); */
+  background-color: #ff560a;
+  /* background-color: #004fb3; */
+  /* background-color: #4285F4; */
 }
 
-.containerP {
-  width: 70%;
-  height: auto;
-  /*background-color: rgba(0, 79, 179);*/
+.container {
+  width: 71%;
+  height: 750px;
   margin: auto;
-  border: 5;
-  border-color: black;
- 
-}
-#table {
-  border: 2;
-  border-color: black;
-  /*width: 1010px;*/
-  /*height: auto;*/
   margin-top: 10px;
-  margin-left: 150px;
-  margin: center;
-}
-table {
+  border-radius: 12px;
+  background-color: #fff;
+  /* background-color: rgb(22, 111, 229,0.9); */
+  /* background-color: #1771E6;  */
+  /* border-style: dotted;
   border: 2;
-  border-color: black;
-  background-color: aquamarine;
-  /*width: 1010px;*/
-  /*height: auto;*/
-  /*margin-top: 50px;*/
-  /*margin-left: 150px;*/
-  margin: center;
+  border-color: tomato; */
 }
-th td{
-    font-size: 12px;
-}
-
-
-
-caption {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  color: blue;
-}
-h1 {
-  color: blue;
-  margin-top: 40px;
-  margin-left: 150px;
+/* .contenderecha {
+  width: 185px;
+  height: 600px;
+  position: relative;
+  float: right;
+  background-color: bisque;
+  margin-top: -606px;
+  border-style: dotted;
+  border: 2;
+  border-color: tomato;
 }
 
+.contenizquierda {
+  width: 185px;
+  height: 600px;
+  position: relative;
+  float: left;
+  background-color: bisque;
+  border-style: dotted;
+  border: 2;
+  border-color: tomato;
+} */
 
-button{
-margin-left: 950px;
-/*background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);*/
-width: 180px;
-height: 45px;
-border-radius: 5px 5px 5px 5px;
-background-color: rgb(0,79,179);
-text-align: center;
-color:white;
-border: 0;
-
-}
-
-
-button:hover{
-  background-color: rgba(255,86,10,1);
-  color: rgb(0,79,179);
-  
-  
-  }
-
-#logo-entel {
+#logo_entel {
   width: 180px;
   height: 80px;
-  background-color: rgba(0, 79, 179);
-  margin-top: -20px;
-  
-}
-#entel-hogar {
-  width: 400px;
-  height: 335px;
-  border: 2;
-  background-color:aquamarine;
   margin-top: 20px;
-  margin-left: -550px;
-  
+  margin-left: -20px;
+  background-image: url(/Factura_Telefonica/img/logo-entelf.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border-style: dotted;
+  border: 2;
+  border-color:green; */
+}
+#entel_hogar {
+  width: 280px;
+  height: 235px;
+  float: right;
+  margin-top: -20px;
+  /* margin-right: -3px; */
+  background-image: url(/Factura_Telefonica/img/e-banner-oyp-hogar-setiembre-desk.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-style: dotted;
+  border: 0;
+  border-color: green;
+}
+
+#datosP {
+  width: 450px;
+  height: 125px;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: #fff;
+  border-color: #e5f5fe;
+  border: 1;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+#datosP h2 {
+  padding-top: 7px;
+  margin-left: 20px;
+  margin-top: -1px;
+  text-align: justify;
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ff560a;
+}
+
+#datosP p {
+  margin-top: -10px;
+  margin-left: 20px;
+  color: grey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  /* font-family: "Clarendon Regular";
+  src: url ("font/08649_Clarendon-Regular (1).ttf"); */
+}
+p#titular {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-weight: bold 300;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.datosinfoB {
+  display: flex;
+  width: 380px;
+  height: 135px;
+  margin: auto;
+  /* background-color:#E5F5FE; */
+  /* opacity: 0.5; */
+  margin: auto;
+  float: left;
+  margin-left: 80px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.datosinfoA {
+  display: flex;
+  float: right;
+  text-align: center;
+  background-image: url(/Factura_Telefonica/img/ciclo.png);
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 380px;
+  height: 135px;
+  background-color: #e5f5fe;
+  margin-right: 80px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.table {
+  width: 650px;
+  border: 1;
+  margin: auto;
+  border-style: solid;
+  border-color: #ff560a;
+  border-radius: 9px;
+}
+
+.table,
+td {
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.background {
+  background-color: #e5f5fe;
+  font-weight: bold;
+  color: black;
+}
+
+#detalle_recibo {
+  margin-top: 190px;
+  text-align-last: center;
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+h5 {
+  text-align-last: center;
+  color: grey;
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  margin-top: 40px;
+}
+
+.preciario {
+  width: 220px;
+  height: 135px;
+  margin: auto;
+  background-color: #019df4;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.preciario p {
+  text-align: center;
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.cod_pago {
+  width: 216px;
+  height: 30px;
+  margin: auto;
+  margin-top: -12px;
+  background-color: white;
+  /* background-color:  #1771E6; */
+  border-radius: 0px 0px 10px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #019df4;
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #019df4;
+}
+
+.cod_pago p {
+  text-align: center;
+  margin-top: 5px;
 }
 
 
+.precio{
+  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 40px; 
+  padding: 15px;
+  margin-top: -25px;
+}
+
+.fp{
+  text-align: center;
+  margin-top: -15px;
+}
