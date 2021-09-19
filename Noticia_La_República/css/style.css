@@ -1,0 +1,89 @@
+body,html{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    color: red;
+    font-size: 18px;
+}
+
+h3 {
+    margin-top: -15px;
+}
+
+
+.container0{
+    width: 100%;
+    height: auto;
+    background-color: FFFFFF;
+
+}
+
+.container1{
+
+}
+
+.group-logo{
+    /* display:grid;
+    place-items: center; */
+    margin: auto;
+    width: 90%;
+    height: 150px;
+    margin-top: 40px;
+    background-color: #FF0102;
+
+}
+
+.logo-larepublica{
+    width: 70%;
+    height: 140px;
+    position: relative;
+    margin: auto;
+    margin-top: -3px;
+    margin-left: 125px;
+    border: 2;
+    top: 5px;
+    border-color: aquamarine;
+    border-style: solid;
+}
+
+.titulo {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav {
+    display:grid;
+    place-items: center;
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    background-color: gray;
+   
+}
+
+.navegacion li {
+    display: inline-block;
+    padding-right: 12px;
+    font-size: 14px;
+    color: white;
+}
+
+.img {
+    width: 350px;
+    height: 200px;
+    border: 1px solid;
+    float: right;
+}
+
+.fecha {
+    background-color: red;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    font-family: arial;
+    font-size: 14px;
+}

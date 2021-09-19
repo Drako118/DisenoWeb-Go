@@ -47,7 +47,7 @@ html {
   height: 80px;
   margin-top: 20px;
   margin-left: -20px;
-  background-image: url(/Factura_Telefonica/img/logo-entelf.png);
+  background-image: url(../img/Logo-Entelf.png);
   background-repeat: no-repeat;
   background-size: contain;
   /* border-style: dotted;
@@ -60,7 +60,7 @@ html {
   float: right;
   margin-top: -20px;
   /* margin-right: -3px; */
-  background-image: url(/Factura_Telefonica/img/e-banner-oyp-hogar-setiembre-desk.png);
+  background-image: url(../img/e-banner-oyp-hogar-setiembre-desk.png);
   background-repeat: no-repeat;
   background-size: contain;
   border-style: dotted;
@@ -85,7 +85,7 @@ html {
   margin-left: 20px;
   margin-top: -1px;
   text-align: justify;
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 25px;
@@ -127,7 +127,7 @@ p#titular {
   display: flex;
   float: right;
   text-align: center;
-  background-image: url(/Factura_Telefonica/img/ciclo.png);
+  background-image: url(../img/ciclo.png);
   background-size: 350px;
   background-repeat: no-repeat;
   background-position: center;
@@ -150,7 +150,7 @@ p#titular {
 
 .table,
 td {
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   font-size: 13px;
@@ -165,7 +165,7 @@ td {
 #detalle_recibo {
   margin-top: 190px;
   text-align-last: center;
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   font-size: 13px;
@@ -174,7 +174,7 @@ td {
 h5 {
   text-align-last: center;
   color: grey;
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   font-size: 13px;
@@ -192,7 +192,7 @@ h5 {
 }
 .preciario p {
   text-align: center;
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -209,7 +209,7 @@ h5 {
   border-width: 2px;
   border-style: solid;
   border-color: #019df4;
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 13px;
@@ -223,7 +223,7 @@ h5 {
 
 
 .precio{
-  src: url(/Factura_Telefonica/font/Oswald-ExtraLight.ttf);
+  src: url(../font/Oswald-ExtraLight.ttf);
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   font-weight: 700;
