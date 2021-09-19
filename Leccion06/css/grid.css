@@ -1,0 +1,35 @@
+.container0 {
+  display: grid;
+  width: 1000px;
+  height: 750px;
+  margin: auto;
+  /* grid-template-areas: "header header header" "nav section aside" "foot foot foot"; */
+  grid-template-areas: repeat(3, [col-start] 1fr);
+  grid-gap: 20px;
+}
+header {
+  grid-area: header;
+  background: blue;
+}
+nav {
+  grid-area: nav;
+  background: red;
+}
+section {
+  grid-area: section;
+  background: green;
+}
+aside {
+  grid-area: aside;
+  background: orange;
+}
+footer {
+  grid-area: footer;
+  background: orange;
+}
+
+
+nav, aside, section {
+    float: left;
+    height: 300px;
+}
