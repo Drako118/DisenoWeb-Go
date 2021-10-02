@@ -1,0 +1,63 @@
+:root{
+    --bgbody: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    --colororange: #FF560A;
+}
+body{
+    background-image: var(--bgbody);
+}
+
+.contenedorP{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.contenedorP h2{
+    text-align: center;
+    
+}
+
+legend{
+    /* color: #FF560A; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+fieldset{
+    background-color: white;
+}
+
+.formato1{
+
+    margin-left: 50px;
+}
+.formato2{
+
+    margin-left: 40px;margin-top: 5px;
+}
+.formato3{
+
+    margin-left: 90px; margin-top: 5px;
+}
+.formato4{
+
+    margin-left: 75px;margin-top: 5px;
+}
+.formato5{
+
+    margin-left: 75px;margin-top: 5px;
+}
+
+
+
+
+.btn-grad{
+     background-color: var(--colororange);
+     width: 180px;
+     height: 35px;
+     border-radius: 5px;
+     border: none;
+     margin-left: 220px;
+     font-weight: bold;
+}
